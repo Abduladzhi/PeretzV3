@@ -59,15 +59,87 @@
 		98E9EA9B27B557BD0020EF38 /* PeretzV3 */ = {
 			isa = PBXGroup;
 			children = (
-				98E9EA9C27B557BD0020EF38 /* AppDelegate.swift */,
-				98E9EA9E27B557BD0020EF38 /* SceneDelegate.swift */,
-				98E9EAA027B557BD0020EF38 /* ViewController.swift */,
-				98E9EAA227B557BD0020EF38 /* Main.storyboard */,
-				98E9EAA527B557BE0020EF38 /* Assets.xcassets */,
-				98E9EAA727B557BE0020EF38 /* LaunchScreen.storyboard */,
-				98E9EAAA27B557BE0020EF38 /* Info.plist */,
+				98E9EB0327B58A4C0020EF38 /* Application */,
+				98E9EB0427B58A5C0020EF38 /* Menu */,
+				98E9EB0827B58AD60020EF38 /* Support */,
 			);
 			path = PeretzV3;
+			sourceTree = "<group>";
+		};
+		98E9EB0027B58A2C0020EF38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98E9EB0127B58A340020EF38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EAA227B557BD0020EF38 /* Main.storyboard */,
+				98E9EAA727B557BE0020EF38 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98E9EB0227B58A3B0020EF38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EA9C27B557BD0020EF38 /* AppDelegate.swift */,
+				98E9EA9E27B557BD0020EF38 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98E9EB0327B58A4C0020EF38 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EB0027B58A2C0020EF38 /* Model */,
+				98E9EB0127B58A340020EF38 /* View */,
+				98E9EB0227B58A3B0020EF38 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		98E9EB0427B58A5C0020EF38 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EB0727B58A810020EF38 /* Model */,
+				98E9EB0527B58A810020EF38 /* View */,
+				98E9EB0627B58A810020EF38 /* Controller */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		98E9EB0527B58A810020EF38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98E9EB0627B58A810020EF38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EAA027B557BD0020EF38 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98E9EB0727B58A810020EF38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98E9EB0827B58AD60020EF38 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EAA527B557BE0020EF38 /* Assets.xcassets */,
+				98E9EAAA27B557BE0020EF38 /* Info.plist */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PeretzV3/Info.plist;
+				INFOPLIST_FILE = PeretzV3/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PeretzV3/Info.plist;
+				INFOPLIST_FILE = PeretzV3/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
