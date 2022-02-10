@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		98E9EA9D27B557BD0020EF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EA9C27B557BD0020EF38 /* AppDelegate.swift */; };
 		98E9EA9F27B557BD0020EF38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EA9E27B557BD0020EF38 /* SceneDelegate.swift */; };
-		98E9EAA127B557BD0020EF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EAA027B557BD0020EF38 /* ViewController.swift */; };
-		98E9EAA427B557BD0020EF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E9EAA227B557BD0020EF38 /* Main.storyboard */; };
+		98E9EAA127B557BD0020EF38 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EAA027B557BD0020EF38 /* MenuViewController.swift */; };
+		98E9EAA427B557BD0020EF38 /* MenuGeneral.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E9EAA227B557BD0020EF38 /* MenuGeneral.storyboard */; };
 		98E9EAA627B557BE0020EF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E9EAA527B557BE0020EF38 /* Assets.xcassets */; };
 		98E9EAA927B557BE0020EF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E9EAA727B557BE0020EF38 /* LaunchScreen.storyboard */; };
 		98E9EAB127B5586B0020EF38 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 98E9EAB027B5586B0020EF38 /* .gitignore */; };
+		98E9EB0A27B59D970020EF38 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EB0927B59D970020EF38 /* MenuCell.swift */; };
+		98E9EB0D27B5A0CC0020EF38 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EB0C27B5A0CC0020EF38 /* Menu.swift */; };
+		98E9EB1027B5A33D0020EF38 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EB0F27B5A33D0020EF38 /* NetworkService.swift */; };
+		98E9EB1327B5A4BB0020EF38 /* MenuNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EB1227B5A4BB0020EF38 /* MenuNetworkService.swift */; };
+		98E9EB1627B5A5070020EF38 /* GetMenuResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EB1527B5A5070020EF38 /* GetMenuResponse.swift */; };
+		98E9EB1827B5A5830020EF38 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9EB1727B5A5830020EF38 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98E9EA9927B557BD0020EF38 /* PeretzV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeretzV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E9EA9C27B557BD0020EF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98E9EA9E27B557BD0020EF38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		98E9EAA027B557BD0020EF38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98E9EAA327B557BD0020EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98E9EAA027B557BD0020EF38 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		98E9EAA327B557BD0020EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MenuGeneral.storyboard; sourceTree = "<group>"; };
 		98E9EAA527B557BE0020EF38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E9EAA827B557BE0020EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98E9EAAA27B557BE0020EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98E9EAB027B5586B0020EF38 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		98E9EB0927B59D970020EF38 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		98E9EB0C27B5A0CC0020EF38 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		98E9EB0F27B5A33D0020EF38 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		98E9EB1227B5A4BB0020EF38 /* MenuNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNetworkService.swift; sourceTree = "<group>"; };
+		98E9EB1527B5A5070020EF38 /* GetMenuResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMenuResponse.swift; sourceTree = "<group>"; };
+		98E9EB1727B5A5830020EF38 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				98E9EB0327B58A4C0020EF38 /* Application */,
+				98E9EB0E27B5A3230020EF38 /* NetworkService */,
 				98E9EB0427B58A5C0020EF38 /* Menu */,
+				98E9EB1127B5A4930020EF38 /* MenuNetworkService */,
 				98E9EB0827B58AD60020EF38 /* Support */,
 			);
 			path = PeretzV3;
@@ -69,6 +83,7 @@
 		98E9EB0027B58A2C0020EF38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				98E9EB1727B5A5830020EF38 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,7 +91,6 @@
 		98E9EB0127B58A340020EF38 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				98E9EAA227B557BD0020EF38 /* Main.storyboard */,
 				98E9EAA727B557BE0020EF38 /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -104,6 +118,7 @@
 		98E9EB0427B58A5C0020EF38 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				98E9EB1427B5A4F10020EF38 /* GetMenuResponse */,
 				98E9EB0727B58A810020EF38 /* Model */,
 				98E9EB0527B58A810020EF38 /* View */,
 				98E9EB0627B58A810020EF38 /* Controller */,
@@ -114,6 +129,8 @@
 		98E9EB0527B58A810020EF38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				98E9EAA227B557BD0020EF38 /* MenuGeneral.storyboard */,
+				98E9EB0927B59D970020EF38 /* MenuCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,7 +138,7 @@
 		98E9EB0627B58A810020EF38 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				98E9EAA027B557BD0020EF38 /* ViewController.swift */,
+				98E9EAA027B557BD0020EF38 /* MenuViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +146,7 @@
 		98E9EB0727B58A810020EF38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				98E9EB0C27B5A0CC0020EF38 /* Menu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +158,30 @@
 				98E9EAAA27B557BE0020EF38 /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		98E9EB0E27B5A3230020EF38 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EB0F27B5A33D0020EF38 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		98E9EB1127B5A4930020EF38 /* MenuNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EB1227B5A4BB0020EF38 /* MenuNetworkService.swift */,
+			);
+			path = MenuNetworkService;
+			sourceTree = "<group>";
+		};
+		98E9EB1427B5A4F10020EF38 /* GetMenuResponse */ = {
+			isa = PBXGroup;
+			children = (
+				98E9EB1527B5A5070020EF38 /* GetMenuResponse.swift */,
+			);
+			path = GetMenuResponse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +245,7 @@
 				98E9EAB127B5586B0020EF38 /* .gitignore in Resources */,
 				98E9EAA927B557BE0020EF38 /* LaunchScreen.storyboard in Resources */,
 				98E9EAA627B557BE0020EF38 /* Assets.xcassets in Resources */,
-				98E9EAA427B557BD0020EF38 /* Main.storyboard in Resources */,
+				98E9EAA427B557BD0020EF38 /* MenuGeneral.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,21 +256,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E9EAA127B557BD0020EF38 /* ViewController.swift in Sources */,
+				98E9EAA127B557BD0020EF38 /* MenuViewController.swift in Sources */,
 				98E9EA9D27B557BD0020EF38 /* AppDelegate.swift in Sources */,
+				98E9EB0A27B59D970020EF38 /* MenuCell.swift in Sources */,
+				98E9EB1327B5A4BB0020EF38 /* MenuNetworkService.swift in Sources */,
+				98E9EB1627B5A5070020EF38 /* GetMenuResponse.swift in Sources */,
 				98E9EA9F27B557BD0020EF38 /* SceneDelegate.swift in Sources */,
+				98E9EB1827B5A5830020EF38 /* NetworkError.swift in Sources */,
+				98E9EB1027B5A33D0020EF38 /* NetworkService.swift in Sources */,
+				98E9EB0D27B5A0CC0020EF38 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		98E9EAA227B557BD0020EF38 /* Main.storyboard */ = {
+		98E9EAA227B557BD0020EF38 /* MenuGeneral.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				98E9EAA327B557BD0020EF38 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MenuGeneral.storyboard;
 			sourceTree = "<group>";
 		};
 		98E9EAA727B557BE0020EF38 /* LaunchScreen.storyboard */ = {
@@ -369,7 +417,7 @@
 				INFOPLIST_FILE = PeretzV3/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MenuGeneral;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,7 +444,7 @@
 				INFOPLIST_FILE = PeretzV3/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MenuGeneral;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
