@@ -62,39 +62,61 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1i-M3-Wdt">
-                                                    <rect key="frame" x="181" y="48.333333333333336" width="205" height="14.333333333333336"/>
+                                                    <rect key="frame" x="181" y="48.333333333333343" width="205" height="43"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="43" id="YMi-r5-8Sw"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="YMi-r5-8Sw"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.40784314269999999" green="0.40784314269999999" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrQ-xW-rZr">
-                                                    <rect key="frame" x="302.33333333333331" y="78.666666666666671" width="10.333333333333314" height="20.333333333333329"/>
+                                                    <rect key="frame" x="303.66666666666669" y="107.33333333333333" width="10.333333333333314" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lL3-A8-Rqi">
-                                                    <rect key="frame" x="174" y="78.666666666666671" width="38.666666666666657" height="20.333333333333329"/>
+                                                    <rect key="frame" x="174" y="107.33333333333333" width="38.666666666666657" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLo-cU-Ql7">
-                                                    <rect key="frame" x="253.66666666666666" y="74.666666666666671" width="30.666666666666657" height="31"/>
+                                                    <rect key="frame" x="253.66666666666663" y="103.33333333333333" width="32" height="31.999999999999986"/>
                                                     <color key="backgroundColor" red="0.0" green="0.64705882349999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32" id="LFg-UG-zrz"/>
+                                                        <constraint firstAttribute="width" constant="32" id="Riw-QU-ihd"/>
+                                                    </constraints>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" title="-"/>
+                                                    <buttonConfiguration key="configuration" style="plain">
+                                                        <attributedString key="attributedTitle">
+                                                            <fragment content="-">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="14" name="ArialMT"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                    </buttonConfiguration>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8n-9b-5rH">
-                                                    <rect key="frame" x="329.66666666666669" y="74.666666666666671" width="33" height="31"/>
+                                                    <rect key="frame" x="329.66666666666669" y="103.33333333333333" width="32" height="31.999999999999986"/>
                                                     <color key="backgroundColor" red="0.0" green="0.64705882349999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" title="+"/>
+                                                    <buttonConfiguration key="configuration" style="plain">
+                                                        <attributedString key="attributedTitle">
+                                                            <fragment content="+">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="14" name="ArialMT"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                    </buttonConfiguration>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.062745101750000004" green="0.062745101750000004" blue="0.062745101750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -111,9 +133,10 @@
                                                 <constraint firstItem="lL3-A8-Rqi" firstAttribute="top" secondItem="F1i-M3-Wdt" secondAttribute="bottom" constant="16" id="ddK-LL-h9J"/>
                                                 <constraint firstItem="nNy-KN-dxx" firstAttribute="top" secondItem="Y0H-5J-5go" secondAttribute="top" id="eyl-Il-tu3"/>
                                                 <constraint firstItem="F1i-M3-Wdt" firstAttribute="trailing" secondItem="Rhw-lq-XmI" secondAttribute="trailing" id="gk3-En-TES"/>
-                                                <constraint firstItem="o8n-9b-5rH" firstAttribute="top" secondItem="F1i-M3-Wdt" secondAttribute="bottom" constant="12" id="lvg-ke-US6"/>
+                                                <constraint firstItem="o8n-9b-5rH" firstAttribute="leading" secondItem="GrQ-xW-rZr" secondAttribute="trailing" constant="15.666666666666572" id="lfI-W7-1KN"/>
                                                 <constraint firstItem="F1i-M3-Wdt" firstAttribute="leading" secondItem="Rhw-lq-XmI" secondAttribute="leading" id="mOm-lk-ILd"/>
-                                                <constraint firstItem="o8n-9b-5rH" firstAttribute="leading" secondItem="GrQ-xW-rZr" secondAttribute="trailing" constant="17" id="s5p-QA-Jtm"/>
+                                                <constraint firstItem="o8n-9b-5rH" firstAttribute="bottom" secondItem="iLo-cU-Ql7" secondAttribute="bottom" id="rH8-ad-tdN"/>
+                                                <constraint firstItem="o8n-9b-5rH" firstAttribute="centerY" secondItem="iLo-cU-Ql7" secondAttribute="centerY" id="tIg-37-XAx"/>
                                                 <constraint firstItem="Rhw-lq-XmI" firstAttribute="top" secondItem="Y0H-5J-5go" secondAttribute="topMargin" constant="5" id="wdp-c3-Ebi"/>
                                                 <constraint firstItem="Rhw-lq-XmI" firstAttribute="trailing" secondItem="Y0H-5J-5go" secondAttribute="trailingMargin" constant="16" id="zJd-ub-nfZ"/>
                                             </constraints>
