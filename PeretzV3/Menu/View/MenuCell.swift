@@ -22,5 +22,7 @@ class MenuCell: UITableViewCell{
         self.nameLabel.text = menu.name
         self.descriptionLabel.text = menu.description
         self.priceLabel.text = String ("\(menu.price)₽")
+        self.lessButton.layer.cornerRadius = lessButton.frame.height/2
+        self.moreButton.layer.cornerRadius = moreButton.frame.height/2
     }
 }
