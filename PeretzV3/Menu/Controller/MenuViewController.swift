@@ -12,7 +12,6 @@ class MenuViewController: UIViewController {
     var menus = [Menu]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         MenuNetworkService.getMenu { response in
             self.menus = response.menus
             self.tableView.reloadData()
