@@ -15,6 +15,8 @@ class MenuCell: UITableViewCell{
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
     @IBOutlet weak var generalImage: UIImage!
+    @IBOutlet weak var moreButton: UIButton!
+    @IBOutlet weak var lessButton: UIButton!
     
     func configure(with menu: Menu) {
         self.nameLabel.text = menu.name
