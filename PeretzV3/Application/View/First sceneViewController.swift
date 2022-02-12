@@ -8,12 +8,18 @@
 import UIKit
 
 class First_sceneViewController: UIViewController {
-
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
     }
+    
     func setupNavigationBar() {
+        let logo = UIImage(named: "arrow.backward")
+        let imageView = UIImageView(image:logo)
+        navigationController?.navigationItem.titleView = imageView
+//        navigationItem.titleView = imageView
 //        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.tintColor = .white
 //        navigationController?.navigationBar.
