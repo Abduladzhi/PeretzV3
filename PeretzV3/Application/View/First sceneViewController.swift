@@ -12,17 +12,15 @@ class First_sceneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        button.layer.cornerRadius = 4
         setupNavigationBar()
+        
     }
     
     func setupNavigationBar() {
-        let logo = UIImage(named: "arrow.backward")
-        let imageView = UIImageView(image:logo)
-        navigationController?.navigationItem.titleView = imageView
-//        navigationItem.titleView = imageView
-//        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.tintColor = .white
-//        navigationController?.navigationBar.
-//        navigationItem.largeTitleDisplayMode = .always
+        
+        
+
     }
 }
