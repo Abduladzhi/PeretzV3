@@ -19,8 +19,5 @@ class First_sceneViewController: UIViewController {
     
     func setupNavigationBar() {
         navigationController?.navigationBar.tintColor = .white
-        
-        
-
     }
 }

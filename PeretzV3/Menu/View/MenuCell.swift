@@ -40,18 +40,10 @@ class MenuCell: UITableViewCell{
     }
     
     func configure(with menu: Menu) {
-//        self.numberLabel.text = String(number)
-//        if menu.new == false{
-//            let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-//            label.backgroundColor = .white
-//            label.center = CGPoint(x: 10, y: 10)
-//            label.textAlignment = .center
-//            label.text = "I'm a test label"
-//        }
         if menu.new == false{
             self.newLabel.text = "NEW"
             self.newLabel.textColor = .white
-            self.newLabel.backgroundColor = UIColor(red: 247/225, green: 166/255, blue: 0/255, alpha: 1)
+            self.newLabel.backgroundColor = UIColor(red: 247/255, green: 166/255, blue: 0/255, alpha: 1)
             self.newLabel.layer.cornerRadius = 2
         }
         

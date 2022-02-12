@@ -19,7 +19,6 @@ class MenuViewController: UIViewController {
     }
 }
 
-
 extension MenuViewController: UITableViewDelegate {}
 
 extension MenuViewController: UITableViewDataSource{
