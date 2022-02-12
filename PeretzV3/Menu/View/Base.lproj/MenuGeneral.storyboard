@@ -178,7 +178,7 @@
         <!--Peretz-->
         <scene sceneID="AKr-Jy-XRa">
             <objects>
-                <viewController id="aeE-22-UoP" sceneMemberID="viewController">
+                <viewController id="aeE-22-UoP" customClass="First_sceneViewController" customModule="PeretzV3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9EN-6x-W2U">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -207,7 +207,9 @@
                             <constraint firstItem="Rrp-eM-Bcc" firstAttribute="trailing" secondItem="qre-za-gXE" secondAttribute="trailing" constant="27" id="y2O-jK-2Vm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Peretz" id="WtF-h3-74e"/>
+                    <navigationItem key="navigationItem" title="Peretz" id="WtF-h3-74e">
+                        <barButtonItem key="backBarButtonItem" title=" " id="3TM-In-OgK"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yrp-oy-PQu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
