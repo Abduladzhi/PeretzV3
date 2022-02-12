@@ -17,7 +17,6 @@ class MenuCell: UITableViewCell{
     @IBOutlet weak var moreButton: UIButton!
     @IBOutlet weak var lessButton: UIButton!
     @IBOutlet weak var bigImage: UIImageView!
-    
     @IBOutlet weak var newLabel: UILabel!
     var number = 0
     @IBAction func pressMinus(_ sender: UIButton) {
