@@ -18,16 +18,18 @@ class MenuCell: UITableViewCell{
     @IBOutlet weak var lessButton: UIButton!
     @IBOutlet weak var bigImage: UIImageView!
     @IBOutlet weak var newLabel: UILabel!
+    var count = 1
     var number = 0
     @IBAction func pressMinus(_ sender: UIButton) {
         self.lessButton.isHidden = false
         self.numberLabel.isHidden = false
-        if number == 0{
+        if number == 1{
             self.numberLabel.text = String(number)
             self.lessButton.isHidden = true
             self.numberLabel.isHidden = true
+            number = 0
         }else {
-            number = number - 1
+            number = number - count
             self.numberLabel.text = String(number)
         }
     }
@@ -35,7 +37,7 @@ class MenuCell: UITableViewCell{
     @IBAction func pressPlus(_ sender: UIButton) {
         self.lessButton.isHidden = false
         self.numberLabel.isHidden = false
-        number = number + 1
+        number = number + count
         self.numberLabel.text = String(number)
     }
     
