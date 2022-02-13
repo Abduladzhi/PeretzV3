@@ -115,8 +115,8 @@
                                                         <action selector="pressPlus:" destination="dm5-j8-gKw" eventType="touchUpInside" id="Hbf-jO-qRM"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrQ-xW-rZr">
-                                                    <rect key="frame" x="312" y="137" width="10" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrQ-xW-rZr">
+                                                    <rect key="frame" x="312" y="137.66666666666666" width="10" height="20.333333333333343"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="VFf-Jb-mxx"/>
                                                     </constraints>
