@@ -31,7 +31,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8K-xZ-lba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-703" y="-208"/>
+            <point key="canvasLocation" x="-786" y="-208"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -188,16 +188,22 @@
                             <constraint firstItem="AbN-xx-gSo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wpc-6Q-6i9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="tFu-0a-xDf"/>
+                    <navigationItem key="navigationItem" id="tFu-0a-xDf">
+                        <barButtonItem key="leftBarButtonItem" title=" " image="arrow.backward" catalog="system" id="GS8-eY-H1G">
+                            <connections>
+                                <action selector="unwindToPreviusViewControllerWithSender:" destination="BYZ-38-t0r" id="Gib-kc-TkL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="AbN-xx-gSo" id="ruk-02-uC4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="650.76923076923072" y="-208.29383886255923"/>
+            <point key="canvasLocation" x="628" y="-208"/>
         </scene>
-        <!--Peretz-->
+        <!--First scene View Controller-->
         <scene sceneID="AKr-Jy-XRa">
             <objects>
                 <viewController id="aeE-22-UoP" customClass="First_sceneViewController" customModule="PeretzV3" customModuleProvider="target" sceneMemberID="viewController">
@@ -228,7 +234,7 @@
                             <constraint firstItem="qre-za-gXE" firstAttribute="leading" secondItem="Rrp-eM-Bcc" secondAttribute="leading" constant="26" id="uym-zW-6YA"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Peretz" id="WtF-h3-74e"/>
+                    <navigationItem key="navigationItem" id="WtF-h3-74e"/>
                     <connections>
                         <outlet property="button" destination="qre-za-gXE" id="ai6-6p-o6V"/>
                     </connections>

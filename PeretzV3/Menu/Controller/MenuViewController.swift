@@ -9,14 +9,19 @@ import UIKit
 
 class MenuViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+
     var menus = [Menu]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
         MenuNetworkService.getMenu { response in
             self.menus = response.menus
             self.tableView.reloadData()
         }
     }
+    @IBAction func unwindToPreviusViewController(sender: AnyObject) {
+        self.navigationController?.popViewController(animated: true)}
 }
 
 extension MenuViewController: UITableViewDelegate {}
