@@ -12,6 +12,7 @@ class MenuViewController: UIViewController {
 
     var menus = [Menu]()
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
@@ -19,6 +20,9 @@ class MenuViewController: UIViewController {
             self.menus = response.menus
             self.tableView.reloadData()
         }
+    }
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
     @IBAction func unwindToPreviusViewController(sender: AnyObject) {
         self.navigationController?.popViewController(animated: true)}

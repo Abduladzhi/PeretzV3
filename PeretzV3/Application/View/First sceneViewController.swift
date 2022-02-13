@@ -37,33 +37,6 @@ class First_sceneViewController: UIViewController {
         parentView.addSubview(label)
     }
     func setupNavigationBar() {
-        navigationController?.navigationBar.tintColor = .white
-        
-        
-//        let label = UILabel()
-//        label.text = "Title Label"
-//        label.textAlignment = .left
-//        self.navigationItem.titleView = label
-//        label.translatesAutoresizingMaskIntoConstraints = false
-//        label.superview?.addConstraint(NSLayoutConstraint(item: label, attribute: .centerX, relatedBy: .equal, toItem: label.superview, attribute: .centerX, multiplier: 1, constant: 0))
-//        label.superview?.addConstraint(NSLayoutConstraint(item: label, attribute: .width, relatedBy: .equal, toItem: label.superview, attribute: .width, multiplier: 1, constant: 0))
-//        label.superview?.addConstraint(NSLayoutConstraint(item: label, attribute: .centerY, relatedBy: .equal, toItem: label.superview, attribute: .centerY, multiplier: 1, constant: 0))
-//        label.superview?.addConstraint(NSLayoutConstraint(item: label, attribute: .height, relatedBy: .equal, toItem: label.superview, attribute: .height, multiplier: 1, constant: 0))
-//        navigationItem.title = "Peretz"
-//        navigationItem.title.
-        
-        
-//        let backButton = UIBarButtonItem()
-//        backButton.image = .none
-//        backButton.image = UIImage(systemName: "arrow.backward")
-//        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
-        
-        
-        
-        
-        
-//        navigationController?.navigationBar.barTintColor = .white
-        
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
+        navigationController?.navigationBar.tintColor = UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1)
     }
 }

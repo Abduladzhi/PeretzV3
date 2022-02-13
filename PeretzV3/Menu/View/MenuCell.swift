@@ -56,5 +56,6 @@ class MenuCell: UITableViewCell{
         self.moreButton.layer.cornerRadius = moreButton.frame.height/2
         self.bigImage.downloaded(from: menu.image)
     }
+    
 }
 
